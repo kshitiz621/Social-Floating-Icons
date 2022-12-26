@@ -1,0 +1,98 @@
+#social-float{
+  position:fixed;
+  bottom:30%;
+  padding:20px 10px;
+
+}
+.whats-float {
+  box-shadow: -1px 0px 35px -7px rgba(158,158,158,1);
+
+    position: fixed;
+    transform:translate(135px,0px);
+    width:180px;
+  right:0;
+    overflow: hidden;
+    background-color: #25d366;
+    color: #FFF;
+    border-radius: 2px 0 0 2px;
+    z-index: 10;
+    transition: all 0.5s ease-in-out;
+    vertical-align: middle
+}
+.whats-float a span {
+    color: white;
+    font-size: 18px;
+  font-family: "Lato",sans-serif;
+    padding-top: 8px;
+    padding-bottom: 10px;
+    position: absolute;
+    line-height: 180%;
+    font-weight: bolder;
+}
+
+.whats-float i {
+    font-size: 30px;
+    color: white;
+    line-height: 30px;
+    padding: 10px 20px 10px 10px;
+    transform:rotate(0deg);
+    transition: all 0.5s ease-in-out;
+    text-align:center;
+}
+
+.whats-float:hover {
+    color: #FFFFFF;
+  box-shadow: -1px 0px 35px -7px rgba(0,0,0,1);
+    transform:translate(0px,0px);
+}
+
+.whats-float:hover i  {
+    transform:rotate(360deg);
+  
+}
+
+.tele-float {
+  box-shadow: -1px 0px 35px -7px rgba(158,158,158,1);
+
+    position: fixed;
+    transform:translate(135px,60px);
+    width:180px;
+  right:0;
+    overflow: hidden;
+    background-color: #0088cc;
+    color: #FFF;
+    border-radius: 2px 0 0 2px;
+    z-index: 10;
+    transition: all 0.5s ease-in-out;
+    vertical-align: middle
+}
+.tele-float a span {
+    color: white;
+    font-size: 18px;
+  font-family: "Lato",sans-serif;
+    padding-top: 8px;
+    padding-bottom: 10px;
+    position: absolute;
+    line-height: 180%;
+    font-weight: bolder;
+}
+
+.tele-float i {
+    font-size: 30px;
+    color: white;
+    line-height: 30px;
+    padding: 10px 20px 10px 10px;
+    transform:rotate(0deg);
+    transition: all 0.5s ease-in-out;
+    text-align:center;
+}
+
+.tele-float:hover {
+    color: #FFFFFF;
+  box-shadow: -1px 0px 35px -7px rgba(0,0,0,1);
+    transform:translate(0px,60px);
+}
+
+.tele-float:hover i  {
+    transform:rotate(360deg);
+}
